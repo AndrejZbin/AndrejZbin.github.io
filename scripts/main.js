@@ -9,7 +9,7 @@ window.addEventListener('resize', function() {
 })
 
 function fixEmbedHeight() {
-    document.querySelectorAll('.screamable-embeds iframe').forEach(function (embed) {
+    document.querySelectorAll('.streamable-embeds iframe').forEach(function (embed) {
         embed.height = (Math.ceil(embed.clientWidth * 9 / 16)) + 'px';
     });
 }

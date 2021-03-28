@@ -41,8 +41,8 @@ body {
 
 #musicplay {
     position: fixed;
-    left: 10px;
-    top: 10px;
+    right: 6px;
+    bottom: 6px;
 }
 
 #musicplay:hover {
