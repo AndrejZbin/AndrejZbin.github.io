@@ -1,6 +1,7 @@
 window.addEventListener('load', function() {
     fixEmbedHeight();
     createCountUps();
+    a();
 });
 
 window.addEventListener('resize', function() {
@@ -19,7 +20,6 @@ function createCountUps() {
     setInterval(function() {
         elements.forEach(function (el) {
             var diff = Date.now() - new Date(parseInt(el.attributes['data-timestamp'].value));
-            console.log(el.attributes['data-timestamp'].value)
             el.innerHTML = formatDateDif(diff);
         }, 500);
     })
@@ -32,4 +32,13 @@ function formatDateDif(diff) {
     var days = Math.floor(hours / 24);
 
     return `${days}d ${hours % 24}h ${minutes % 60}m ${seconds % 60}s`;
+}
+
+
+function a() {
+    var elem = document.getElementById('musicplay');
+    var audio = document.getElementById('music');
+    elem.addEventListener('click', function () {
+        audio.play();
+    });
 }

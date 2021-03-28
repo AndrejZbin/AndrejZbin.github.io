@@ -11,7 +11,6 @@
 #last-spin {
     text-align: center;
     font-size: 2em;
-    margin: 20px;
 }
 
 #last-spin .countup {
@@ -38,4 +37,16 @@ body {
 
 .streamable-embeds .row {
     margin-bottom: 25px;
+}
+
+#musicplay {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+}
+
+#musicplay:hover {
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition: transform .7s ease-in-out;
 }
