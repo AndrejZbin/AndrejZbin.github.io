@@ -25,20 +25,34 @@ function createCountUps() {
     })
 }
 
+function padNumber(number) {
+    number = number + '';
+    if (number.length === 1) {
+        return '0' + number;
+    }
+    return number;
+}
+
 function formatDateDif(diff) {
     var seconds = Math.floor(diff / 1000);
     var minutes = Math.floor(seconds / 60);
     var hours = Math.floor(minutes / 60);
     var days = Math.floor(hours / 24);
 
-    return `${days}d ${hours % 24}h ${minutes % 60}m ${seconds % 60}s`;
+    return `${days}d ${padNumber(hours % 24)}h ${padNumber(minutes % 60)}m ${padNumber(seconds % 60)}s`;
 }
 
 
 function a() {
     var elem = document.getElementById('musicplay');
     var audio = document.getElementById('music');
+    var playing = false;
     elem.addEventListener('click', function () {
-        audio.play();
+        if (playing) {
+            audio.pause();
+        } else {
+            audio.play();
+        }
+        playing = !playing;
     });
 }

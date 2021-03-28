@@ -35,10 +35,6 @@ body {
     color: red;
 }
 
-.streamable-embeds .row {
-    margin-bottom: 25px;
-}
-
 #musicplay {
     position: fixed;
     right: 6px;
