@@ -1,0 +1,41 @@
+@font-face {
+    font-family:"Formula1";
+    src: url("fonts/Formula1-Regular.ttf");
+}
+
+* {
+    font-family: 'Formula1' !important;
+}
+
+
+#last-spin {
+    text-align: center;
+    font-size: 2em;
+    margin: 20px;
+}
+
+#last-spin .countup {
+    font-size: 1.5em;
+}
+
+body {
+    background: linear-gradient(-180deg, white 33.3%, mediumblue 33.3%, mediumblue 66.6%, red 66.6%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.836);
+    border-radius: 5px;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 1;
+   -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    padding: 20px 40px;
+    color: red;
+}
+
+.streamable-embeds .row {
+    margin-bottom: 25px;
+}
