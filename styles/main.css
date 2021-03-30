@@ -46,3 +46,13 @@ body {
     transform: rotate(360deg);
     transition: transform .7s ease-in-out;
 }
+
+iframe {
+    width: 100%;
+    height: 358px;
+}
+
+#musicplay {
+    width: 40px;
+    height: auto;
+}

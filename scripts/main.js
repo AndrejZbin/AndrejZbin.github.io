@@ -10,7 +10,7 @@ window.addEventListener('resize', function() {
 
 function fixEmbedHeight() {
     document.querySelectorAll('.streamable-embeds iframe').forEach(function (embed) {
-        embed.height = (Math.ceil(embed.clientWidth * 9 / 16)) + 'px';
+        embed.style.height = (Math.ceil(embed.clientWidth * 9 / 16)) + 'px';
     });
 }
 
