@@ -6,14 +6,13 @@ window.addEventListener('load', function() {
 
 window.addEventListener('resize', function() {
     fixEmbedHeight();
-})
+});
 
 function fixEmbedHeight() {
     document.querySelectorAll('.streamable-embeds iframe').forEach(function (embed) {
         embed.style.height = (Math.ceil(embed.clientWidth * 9 / 16)) + 'px';
     });
 }
-
 
 function createCountUps() {
     var elements = document.querySelectorAll('.countup');
@@ -41,7 +40,6 @@ function formatDateDif(diff) {
 
     return `${days}d ${padNumber(hours % 24)}h ${padNumber(minutes % 60)}m ${padNumber(seconds % 60)}s`;
 }
-
 
 function a() {
     var elem = document.getElementById('musicplay');
