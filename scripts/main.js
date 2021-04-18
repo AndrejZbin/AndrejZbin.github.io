@@ -9,7 +9,7 @@ window.addEventListener('resize', function() {
 });
 
 function fixEmbedHeight() {
-    document.querySelectorAll('.streamable-embeds iframe').forEach(function (embed) {
+    document.querySelectorAll('.streamable-embeds iframe, .streamable-embeds .clip-placeholder').forEach(function (embed) {
         embed.style.height = (Math.ceil(embed.clientWidth * 9 / 16)) + 'px';
     });
 }
