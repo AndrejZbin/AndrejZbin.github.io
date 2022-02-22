@@ -17,7 +17,8 @@
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
         <link href="styles/main.css" rel="stylesheet">
         <script src="scripts/main.js"></script>
@@ -45,308 +46,396 @@
             <span>since last spin</span>
         </div>    
 
-        <div class="table-responsive">
-            <table class="table table-dark table-hover">
-                <caption>
-                Number of spins (race weekend sessions)
-                </caption>
-                <thead>
-                    <tr>
-                        <th scope="col"></th>
-                        <th scope="col">FP1</th>
-                        <th scope="col">FP2</th>
-                        <th scope="col">FP3</th>
-                        <th scope="col">Q1</th>
-                        <th scope="col">Q2</th>
-                        <th scope="col">Sprint</th>
-                        <th scope="col">Race</th>
-                        <th scope="col">Total</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">Bahrain</th>
-                        <td>0</td>
-                        <td>1</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td>N/A</td>
-                        <td>N/A</td>
-                        <td>1</td>
-                        <td>5</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Italy (Imola)</th>
-                        <td>2</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>N/A</td>
-                        <td>N/A</td>
-                        <td>1</td>
-                        <td>3</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Portugal</th>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>1</td>
-                        <td>0</td>
-                        <td>N/A</td>
-                        <td>N/A</td>
-                        <td>0</td>
-                        <td>1</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Spain</th>
-                        <td>1</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>N/A</td>
-                        <td>N/A</td>
-                        <td>0</td>
-                        <td>1</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Monaco</th>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>N/A</td>
-                        <td>N/A</td>
-                        <td>0</td>
-                        <td>0</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Baku</th>
-                        <td>1</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>N/A</td>
-                        <td>N/A</td>
-                        <td>0</td>
-                        <td>1</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">France</th>
-                        <td>0</td>
-                        <td>1</td>
-                        <td>1</td>
-                        <td>0</td>
-                        <td>N/A</td>
-                        <td>N/A</td>
-                        <td>0</td>
-                        <td>2</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Austria (Styrian GP)</th>
-                        <td>0</td>
-                        <td>1</td>
-                        <td>1</td>
-                        <td>0</td>
-                        <td>N/A</td>
-                        <td>N/A</td>
-                        <td>0</td>
-                        <td>2</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Austria</th>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>N/A</td>
-                        <td>N/A</td>
-                        <td>0</td>
-                        <td>0</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Great Britain</th>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>N/A</td>
-                        <td>1</td>
-                        <td>N/A</td>
-                        <td>1</td>
-                        <td>0</td>
-                        <td>2</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Hungary</th>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>N/A</td>
-                        <td>N/A</td>
-                        <td>0</td>
-                        <td>0</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Belgium</th>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>N/A</td>
-                        <td>N/A</td>
-                        <td>0</td>
-                        <td>0</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Netherlands</th>
-                        <td>0</td>
-                        <td>1</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>N/A</td>
-                        <td>N/A</td>
-                        <td>0</td>
-                        <td>1</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Italy (Monza)</th>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>N/A</td>
-                        <td>0</td>
-                        <td>N/A</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Russia</th>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>N/A</td>
-                        <td>0</td>
-                        <td>N/A</td>
-                        <td>N/A</td>
-                        <td>0</td>
-                        <td>0</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Turkey</th>
-                        <td>0</td>
-                        <td>0.5</td>
-                        <td>1</td>
-                        <td>1</td>
-                        <td>N/A</td>
-                        <td>N/A</td>
-                        <td>0</td>
-                        <td>2.5</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">USA</th>
-                        <td>1</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>N/A</td>
-                        <td>N/A</td>
-                        <td>0</td>
-                        <td>1</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Mexico</th>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>N/A</td>
-                        <td>N/A</td>
-                        <td>0</td>
-                        <td>0</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Brazil</th>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>N/A</td>
-                        <td>0</td>
-                        <td>N/A</td>
-                        <td>0</td>
-                        <td>N/A</td>
-                        <td>0</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Qatar</th>
-                        <td>0</td>
-                        <td title="Didn't participate in the session, as his car was damaged in FP1">N/A</td>
-                        <td title="His car broke down before he left the pitlane">N/A</td>
-                        <td>0</td>
-                        <td>N/A</td>
-                        <td>N/A</td>
-                        <td>0</td>
-                        <td>0</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Saudi Arabia</th>
-                        <td>0</td>
-                        <td>1</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>N/A</td>
-                        <td>N/A</td>
-                        <td>0</td>
-                        <td>1</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">Abu Dhabi</th>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>N/A</td>
-                        <td>N/A</td>
-                        <td>N/A</td>
-                        <td>0</td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td>Total</td>
-                        <td>5</td>
-                        <td>5.5</td>
-                        <td>5</td>
-                        <td>4</td>
-                        <td>0</td>
-                        <td>1</td>
-                        <td>2</td>
-                        <td id="total-spins">22.5</td>
-                    </tr>
-                </tfoot>
-            </table>
-        </div>
+        <div id="total-spins" class="d-none">23.5</div>
 
-        <div class="table-responsive">
-            <table class="table table-dark table-hover">
-                <caption>
-                Number of spins (other sessions)
-                </caption>
-                <thead>
-                    <tr>
-                        <th scope="col"></th>
-                        <th scope="col">Day 1</th>
-                        <th scope="col">Day 2</th>
-                        <th scope="col">Day 3</th>
-                        <th scope="col">Total</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">Pre-season testing</th>
-                        <td>1</td>
-                        <td>0</td>
-                        <td>0</td>
-                        <td>1</td>
-                    </tr>
-                </tbody>
-            </table>
+        <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <button class="nav-link active" id="nav-2022-stats" data-bs-toggle="tab" data-bs-target="#stats2022" type="button" role="tab" aria-controls="stats2022" aria-selected="true">2022</button>
+              <button class="nav-link" id="nav-2021-stats" data-bs-toggle="tab" data-bs-target="#stats2021" type="button" role="tab" aria-controls="stats2021" aria-selected="false">2021</button>
+            </div>
+        </nav>
+
+        <div id="stats" class="tab-content">
+            <div id="stats2022" class="tab-pane fade show active" role="tabpanel" aria-labelledby="nav-2022-stats">
+                <div class="table-responsive">
+                    <table class="table table-dark table-hover">
+                        <caption>
+                        Number of spins (race weekend sessions)
+                        </caption>
+                        <thead>
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">FP1</th>
+                                <th scope="col">FP2</th>
+                                <th scope="col">FP3</th>
+                                <th scope="col">Q1</th>
+                                <th scope="col">Q2</th>
+                                <th scope="col">Sprint</th>
+                                <th scope="col">Race</th>
+                                <th scope="col">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Bahrain</th>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td>Total</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td id="total-spins-2022">0</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+
+                <div class="table-responsive">
+                    <table class="table table-dark table-hover">
+                        <caption>
+                        Number of spins (other sessions)
+                        </caption>
+                        <thead>
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">Day 1</th>
+                                <th scope="col">Day 2</th>
+                                <th scope="col">Day 3</th>
+                                <th scope="col">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Pre-season testing</th>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>1</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div id="stats2021" class="tab-pane fade" role="tabpanel" aria-labelledby="nav-2021-stats">
+                <div class="table-responsive">
+                    <table class="table table-dark table-hover">
+                        <caption>
+                        Number of spins (race weekend sessions)
+                        </caption>
+                        <thead>
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">FP1</th>
+                                <th scope="col">FP2</th>
+                                <th scope="col">FP3</th>
+                                <th scope="col">Q1</th>
+                                <th scope="col">Q2</th>
+                                <th scope="col">Sprint</th>
+                                <th scope="col">Race</th>
+                                <th scope="col">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Bahrain</th>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>1</td>
+                                <td>5</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Italy (Imola)</th>
+                                <td>2</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>1</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Portugal</th>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>0</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Spain</th>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>0</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Monaco</th>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Baku</th>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>0</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">France</th>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>0</td>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Austria (Styrian GP)</th>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>0</td>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Austria</th>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Great Britain</th>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>N/A</td>
+                                <td>1</td>
+                                <td>N/A</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Hungary</th>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Belgium</th>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Netherlands</th>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>0</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Italy (Monza)</th>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>N/A</td>
+                                <td>0</td>
+                                <td>N/A</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Russia</th>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>N/A</td>
+                                <td>0</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Turkey</th>
+                                <td>0</td>
+                                <td>0.5</td>
+                                <td>1</td>
+                                <td>1</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>0</td>
+                                <td>2.5</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">USA</th>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>0</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Mexico</th>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Brazil</th>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>N/A</td>
+                                <td>0</td>
+                                <td>N/A</td>
+                                <td>0</td>
+                                <td>N/A</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Qatar</th>
+                                <td>0</td>
+                                <td title="Didn't participate in the session, as his car was damaged in FP1">N/A</td>
+                                <td title="His car broke down before he left the pitlane">N/A</td>
+                                <td>0</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Saudi Arabia</th>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>0</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Abu Dhabi</th>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td>Total</td>
+                                <td>5</td>
+                                <td>5.5</td>
+                                <td>5</td>
+                                <td>4</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td id="total-spins-2021">22.5</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+
+                <div class="table-responsive">
+                    <table class="table table-dark table-hover">
+                        <caption>
+                        Number of spins (other sessions)
+                        </caption>
+                        <thead>
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">Day 1</th>
+                                <th scope="col">Day 2</th>
+                                <th scope="col">Day 3</th>
+                                <th scope="col">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Pre-season testing</th>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>0</td>
+                                <td>1</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
 
         <div class="streamable-embeds">
