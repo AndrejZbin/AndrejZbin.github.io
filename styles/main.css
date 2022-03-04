@@ -18,7 +18,7 @@
 }
 
 body {
-    background: linear-gradient(-180deg, white 33.3%, mediumblue 33.3%, mediumblue 66.6%, red 66.6%);
+    background: #1e1e1e;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
